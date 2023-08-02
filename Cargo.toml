@@ -6,7 +6,9 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cpal = "0.15.2"
 gtk = { version = "0.6.6", package = "gtk4", features = ["v4_10"] }
+hound = "3.5.0"
 openai_api_rust = "0.1.8"
-
-
+rodio = "0.17.1"
+whisper-rs = "0.8.0"
